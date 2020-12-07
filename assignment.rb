@@ -1,3 +1,42 @@
+# Write a ruby program to get participant details as user input and ask questions related to study if participant 
+# age is >= 18 and any combination of 3 questions answer is yes for the study then accept participant as eligible for the 
+# trial ( print message in terminal with participant name that  he is eligible for the trial )
+# module Questions
+#     # write a code to get questions object ( call QuestionClass create method to get questions object )
+# end
+# class Participant
+#    # write a code to take inputs and return participant object
+# end
+# module Study
+#    # write a code to get study object ( call StudyClass create method to get study object )
+# end
+# class StudyConduct
+#      def study_conduct
+#            # write a code to take inputs from user
+#       end
+# end
+# output:
+# Welcome to #{ study_name } !
+# Enter your full name:
+# John Doe
+# Enter your age ( or ask for dob and calculate age in your code ):
+# 20
+# Enter Gender:
+# Male
+# Question1?
+# Yes
+# Question 2?
+# Yes
+# Question 3?
+# Yes
+# Question 4?
+# No
+# Congratulations #{ participant_name } you are eligible for the clinical trial !!!
+# Below is your captured details ( print participant information, questions answers and study information )
+# If answer is No for more than 3 questions and participant age is less than 18 print a message something like below
+# We regret to inform you that you are not eligible for this clinical trial.
+# Below is your captured details ( print participant information, questions answers and study information )
+
 module Questions
 	class QuestionClass
 		attr_accessor :question, :response
